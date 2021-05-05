@@ -6,74 +6,142 @@
         <meta name="viewport" content="width=device-width, initial-scale=1,0">
         <meta name="description" content="This will show on google result page as description">
         <title>Aliz Webpage</title>
+         <!--css start here--> 
+         <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+            header{
+                background-color:rgb(5, 5, 5)
+             }
+        </style>
+         <!--css start here--> 
 </head>
+
 <body>
 
    <!--header start here--> 
     <header style="border: 1px solid red;">
-        logo
-        the menu goes here
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class="logo-header">
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="#">Contact</a>
+        </nav>
     </header>
     <!--header end here--> 
 
     <!--hero-start-->
-    <div style="border: 1px solid yellow;">
+    
+      <section style="border: 1px solid rgb(255, 225, 0);background-color: aliceblue;">
         <h1>heading 1</h1>
-        <p>paragraph</p>
+        <p>paragraph <strong>Hello</strong></p>
         <button>This is the CTA</button>  
-    </div>
+    </section>
     <!--hero start-->
 
     <!--Blog articles start-->
-    <div>
-       <article>
-            Title - Article 1
-            description
-            avatar photo
-            autor namer
-       </article>
-       <article>
-            Title - Article 2
-            description
-            avatar photo
-            autor namer
+    <section>
+        <article class="home-article">
+            <h3>Title - Article 1</h3>
+            <p>description</p> 
+                <div>
+                    <img>Avatar photo
+                    <p>Autor name</p> 
+                </div>
         </article>
-        <article>   
-             Title - Article 3
-            description
-            avatar photo
-            autor namer
+        <article class="home-article">
+            <h3>Title - Article 2</h3>
+            <p>description</p> 
+                <div>
+                    <img>Avatar photo
+                    <p>Autor name</p> 
+                </div>
         </article>
-    </div>
+        <article class="home-article">
+            <h3>Title - Article 3</h3>
+            <p>description</p> 
+                <div>
+                    <img>Avatar photo
+                    <p>Autor name</p> 
+                </div>
+        </article>
+    </section>
     <!--Blog articles end-->
 
     <!-- Features start -->
-    <div>
-        feature 1
-        feature 2
-        feature 3
-        feature 4
-    </div>
+    <section>
+        <!-- Feature 1 start -->
+        <div>
+            <img>
+                <div>
+                    <h4>Feature 1</h4>
+                    <p>Feat Description</p>
+                </div>
+        </div>
+        <!-- Feature 1 end -->
+
+        <!-- Feature 2 start -->
+         <div>
+            <img>
+                <div>
+                    <h4>Feature 2</h4>
+                    <p>Feat Description</p>
+                </div>
+        </div>
+        <!-- Feature 2 end -->
+
+        <!-- Feature 3 start -->
+         <div>
+            <img>
+                <div>
+                    <h4>Feature 3</h4>
+                    <p>Feat Description</p>
+                </div>
+        </div>
+        <!-- Feature 3 end -->
+
+         <!-- Feature 4 start -->
+         <div>
+            <img>
+                <div>
+                    <h4>Feature 4</h4>
+                    <p>Feat Description</p>
+                </div>
+        </div>
+    </section>
+        <!-- Feature 4 end --> 
+    
     <!-- Features end-->
 
     <!-- Contact start-->
-    <div>
-        Contact(Title - Heading 3)
-        Form name
-        Form Email
-        Form Message
-    </div>
+    <section>
+        <h3>Contact(Title - Heading 3)</h3>
+        <div>
+            <form action="#">
+                <input type="text"> Form name <br><br>
+                <input type="email"> Email <br><br>
+                <textarea rows="5" cols="50">Write your Message</textarea><br><br>
+                <input type="submit" value="Send Message">
+             </form>
+        </div>
+    </section>
     <!-- Contact end -->
       
     <!--Footer start-->
     <footer>
-        About
-        Features
-        Contact us
+        <div>
+            <a href="#">About</a> 
+            <a href="#">Features</a> 
+            <a href="mailto:hi.alizbarbs@gmail.com">Mail</a> 
+            <a href="tel:+3368386645">Phone</a> 
+            <a href="#">Contact Us</a> 
+        </div>
 
-        Social media
-        Intagram
-        Facebook
+        <div>
+            <h5>Follow us</h5>
+            <a href="https://www.instagram.com" target="_blank">Intagram</a>
+            <a href="#">Facebook</a>
+        </div>
+        
     </footer>
     <!--Footer ends-->
     Conde injected by live server
