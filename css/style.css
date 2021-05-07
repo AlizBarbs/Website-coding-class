@@ -52,13 +52,37 @@ header nav a{
     padding: 10px 30px;
     text-decoration: none;
 }
-.button-link{
+ /* LINKS */
+a:link a:visited{
+    color: slategray;
+}
+a:hover{
+    background-color: wheat;
+}
+
+a:active{
+    color: slateblue;
+}
+/* MENU LINKS */
+a.menu:link, a.menu:visited{
+    color: purple;
+}
+a.menu:hover{
+    color: sienna;
+}
+
+
+a.button-link:link, a.button-link:visited{
     background-color:rgb(0, 0, 0);
     color: whitesmoke;
     border-radius: 8px;
     box-shadow: 0px 1px 4px 1px rgb(0 0 0 /8%);
     font-weight: bold;
 }
+a.button-link:hover{
+    background-color: purple;
+}
+
 /* This is a class */ 
 .home-article{
     border: 1px solid whitesmoke;
@@ -127,4 +151,30 @@ header nav a{
 }
 #contact{
     padding: 30px;
+}
+
+/* -------- */
+/* TABLET */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    h1 {
+       background-color: blue; 
+       font-size: 4.653rem;
+    }
+    header{
+        background-color: rgb(225, 150, 65);
+    }
+
+}   
+/* -------- */
+/* DESKTOP */
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        background-color: darkmagenta;
+        font-size: 5.653rem;
+    }
+    header{
+        background-color: royalblue;
+    }
+
 }
