@@ -1,0 +1,183 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+    }
+    body{
+        margin: 0;
+
+    }
+    
+    h1{
+    font-size: 6rem;
+    color: whitesmoke;
+    margin-block: 0,2em;
+    }
+    
+    h2{
+        font-size: 5rem;
+    }
+    
+    h3{
+        font-size: 1,5rem;
+    }
+    
+    h4{
+        font-size: 1,2rem;
+        margin: 0,5em;
+    }
+    h5{
+        font-size: 2rem;
+    
+    }
+    h6{
+        font-size: 0,6rem;  
+    }
+    p{
+        color: rgb(41, 41, 41);
+        /* font-size: 21px; */ 
+         /* font-family: 'Exo 2', sans-serif;*/
+    }
+    footer{
+        height:350px;
+        background-color: rgb(4, 4, 4);
+        justify-content: space-between;
+        padding: 30px 60px;
+        color: whitesmoke;
+    }
+   
+    header{
+        padding: 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav a{
+        padding: 10px 30px;
+        text-decoration: none;
+    }
+     /* LINKS */
+    a:link a:visited{
+        color: slategray;
+    }
+    a:hover{
+        background-color: wheat;
+    }
+    
+    a:active{
+        color: slateblue;
+    }
+    /* MENU LINKS */
+    a.menu:link, a.menu:visited{
+        color: rgb(41, 41, 41);
+    }
+    a.menu:hover{
+        color: sienna;
+    }
+    
+    
+    a.button-link:link, a.button-link:visited{
+        background-color:rgb(0, 0, 0);
+        color: whitesmoke;
+        border-radius: 8px;
+        box-shadow: 0px 1px 4px 1px rgb(0 0 0 /8%);
+        font-weight: bold;
+    }
+    a.button-link:hover{
+        background-color: purple;
+    }
+    
+    /* This is a class */ 
+    .home-article{
+        border: 1px solid whitesmoke;
+        border-radius: 16px;
+        background-color:whitesmoke;
+        width: 200px;
+        padding: 20px;
+        margin: 20px;  
+    }
+    .img-article{
+        width: 100%;
+    }
+    .img-aliz{
+        width:200px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 300;
+        image-orientation:left;
+        border: 10%;
+    }   
+    .text-aboutme{
+        text-align: right;
+       
+    }
+    .text-aboutme2{
+        text-align: left;
+    }
+    .container{
+        display:flex;
+    }
+    .author-image{
+        width:40px;
+        height: 40px;
+        margin: 10px;
+    }
+    .author-container{
+        align-items: center;
+    }
+    .feature-card{
+        padding: 10px;
+        min-width: 250px;
+        max-width: 400px;
+    }
+    .contact-half{
+        width: 70%;
+    }
+    .contact-30{
+        width: 30%;
+    }
+    .contact-70{
+        width: 70%;
+    }
+    .icon-social{
+        margin: 5px;
+    }
+    #hero{
+        background-color: #A9F0FF;
+        /* background-image: url(../img/nick-van-den-berg-2gaNlcD75sk-unsplash.jpg); */
+        background-size: cover;
+        text-align:right;
+    /* height: 500px;*/ 
+        height: 100vh;
+        /* flex settins */
+    }
+    #articles{
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        background-color: black;
+    
+    }
+    #contact{
+        padding: 30px;
+    
+}
+
+
+    
+    /* -------- */
+    /* TABLET */
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
+        /* h1 {
+           background-color: blue; 
+           font-size: 4.653rem;
+        }
+        */
+    }   
+    /* -------- */
+    /* DESKTOP */
+    
+    @media only screen and (min-width: 768px) {
+       
+        /* }
+        header{
+            background-color: royalblue;
+        } */
+    
+    }
